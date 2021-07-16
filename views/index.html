@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/common.css" rel="stylesheet" />
+    <link href="/index.css" rel="stylesheet" />
+    <title>Chef's Table</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="website-title">
+            <a href="index.html">
+                <img src="assets/images/logo-chefs-table.png" class="website-logo" />
+                <span>Chef's Table</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="live-sessions.html"><span>Live Sessions</span></a>
+            <a href="login.html"><span>Login</span></a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div id="slider">
+            <img src="assets/images/icon-chevron-left-arrow.png" height="20" width="20" class="slider-arrow slider-left-arrow">
+            <img src="assets/images/image-slider-dish-1.jpg">
+            <img src="assets/images/icon-chevron-right-arrow.png" height="20" width="20" class="slider-arrow slider-right-arrow">
+        </div>
+
+        <div class="recipes-container">
+            <h3>Recipes</h3>
+            <label for="categories">Choose a category:</label>
+            <select name="categories" id="categories">
+                <option value="italian">Italian</option>
+                <option value="chinese">Chinese</option>
+                <option value="continental">Continental</option>
+                <option value="dessert">Dessert</option>
+            </select>
+            <div class="recipe-titles-container">
+                <a href="recipe-detail.html" class="recipe-title">
+                    <div >
+                        Recipe 1
+                    </div>
+                </a>
+                <div class="recipe-title">Recipe 2</div>
+                <div class="recipe-title">Recipe 3</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"> </footer>
+    <script src="common.js">
+        
+    </script>
+</body>
+</html>
